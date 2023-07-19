@@ -11,7 +11,7 @@ import SwiftUI
 struct UserManagementApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(ToastManager())
         }
     }
 }
